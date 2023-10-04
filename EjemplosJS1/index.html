@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function holaJS(){
+            alert("Hola JS 2")
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Alert" onclick="alert('hola JS')">    
+    <input type="button" value="Alert2" onclick="holaJS()">    
+    <input type="button" value="Alert3" onclick="holaJS3()">    
+    <input type="button" value="AlertExterno" onclick="holaJSExterno()">    
+    <script>
+        function holaJS3(){
+            alert("Hola JS 3")
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
